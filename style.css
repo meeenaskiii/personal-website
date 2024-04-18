@@ -1,3 +1,16 @@
 img{
     border-radius: 50%;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    background-image: url('me.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* This ensures that the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color on top of the background image */
+    text-align: center; /* Center-align text */
+    padding: 100px; /* Adjust the padding as needed */
 }
